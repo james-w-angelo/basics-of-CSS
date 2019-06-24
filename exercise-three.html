@@ -1,0 +1,37 @@
+<style>
+  h2 {
+    color: blue;
+  }
+</style>
+
+<h2 style="color: red">DogPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">Dog photos</a>.</p>
+  
+  <a href="#"><img src="https://bit.ly/2J1HGD7" alt="A brown puppy sitting in the grass."></a>
+  
+  <div>
+    <p>Things dogs love:</p>
+    <ul>
+      <li>Grooming</li>
+      <li>Rewards</li>
+      <li>Bones</li>
+    </ul>
+    <p>Top 3 things dogs hate:</p>
+    <ol>
+      <li>Flea treatment</li>
+      <li>Thunder</li>
+      <li>Sirens</li>
+    </ol>
+  </div>
+  
+  <form action="/submit-dog-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="dog photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
