@@ -1,2 +1,2 @@
-# basics-of-CSS
+# Basics of CSS
 Techhire program - basics of CSS
