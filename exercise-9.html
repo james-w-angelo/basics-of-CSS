@@ -1,0 +1,59 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+
+<style>
+  .red-text {
+    color: red;
+  }
+  
+  h2 {
+    font-family: Montserrat, serif;
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+  
+  .thick-blue-border {
+    border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  
+  .smaller-image {
+    width: 250px;
+  }
+</style>
+
+<h2 class="red-text">DogPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">Dog photos</a>.</p>
+  
+  <a href="#"><img class="smaller-image thick-blue-border" src="https://bit.ly/2J1HGD7" alt="A brown puppy sitting in the grass."></a>
+  
+  <div>
+    <p>Things dogs love:</p>
+    <ul>
+      <li>Grooming</li>
+      <li>Rewards</li>
+      <li>Bones</li>
+    </ul>
+    <p>Top 3 things dogs hate:</p>
+    <ol>
+      <li>Flea treatment</li>
+      <li>Thunder</li>
+      <li>Sirens</li>
+    </ol>
+  </div>
+  
+  <form action="/submit-dog-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="dog photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
