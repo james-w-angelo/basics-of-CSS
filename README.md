@@ -1,2 +1,2 @@
 # Basics of CSS
-basics of CSS
+Basics of CSS
